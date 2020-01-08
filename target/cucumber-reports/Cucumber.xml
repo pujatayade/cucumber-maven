@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.697067">
+<testcase classname="site" name="check Menu of javabykiran.com" time="0.697067">
+<failure message="java.lang.Error: Unresolved compilation problem: &#10;&#9;The method assertEquals(String, String) is undefined for the type JbkSiteSteps&#10;&#13;&#10;&#9;at com.jbk.bdd.steps.JbkSiteSteps.career_menu_should_appears(JbkSiteSteps.java:35)&#13;&#10;&#9;at ✽.Then career menu should appears(cucumber/jbksite.feature:9)&#13;&#10;"><![CDATA[Given open a browser........................................................passed
+When I open a jbksite.......................................................passed
+Then career menu should appears.............................................failed
+
+StackTrace:
+java.lang.Error: Unresolved compilation problem: 
+	The method assertEquals(String, String) is undefined for the type JbkSiteSteps
+
+	at com.jbk.bdd.steps.JbkSiteSteps.career_menu_should_appears(JbkSiteSteps.java:35)
+	at ✽.Then career menu should appears(cucumber/jbksite.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "check Menu of javabykiran.com",
+        "description": "",
+        "id": "site;check-menu-of-javabykiran.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 645229200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open a browser",
+            "match": {
+              "location": "JbkSiteSteps.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#When I open a jbksite"
+              }
+            ],
+            "line": 8,
+            "name": "I open a jbksite",
+            "match": {
+              "location": "JbkSiteSteps.i_open_a_jbksite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51807200,
+              "error_message": "java.lang.Error: Unresolved compilation problem: \n\tThe method assertEquals(String, String) is undefined for the type JbkSiteSteps\n\r\n\tat com.jbk.bdd.steps.JbkSiteSteps.career_menu_should_appears(JbkSiteSteps.java:35)\r\n\tat ✽.Then career menu should appears(cucumber/jbksite.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "career menu should appears",
+            "match": {
+              "location": "JbkSiteSteps.career_menu_should_appears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "site",
+    "description": "As a user \r\nI want to open a website\r\nso that i can check menu",
+    "id": "site",
+    "keyword": "Feature",
+    "uri": "cucumber/jbksite.feature"
+  }
+]
